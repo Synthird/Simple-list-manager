@@ -71,9 +71,8 @@ while True:
         printResult("The list is now reversed!")
         listOfValues.reverse()
     elif choice == 7:
-        listLength = len(listOfValues)
         printResult(f"There are a total of {
-                    str(listLength)} values in the list")
+                    str(len(listOfValues))} values in the list")
     elif choice == 8:
         listOfValues.clear()
         printResult("The entire list is cleared!")
