@@ -4,7 +4,9 @@ listOfValues = [
     "BAAAAA!!",
     "Comfy",
     "MOOoooo....",
-    "WOW!"
+    "WOW!",
+    "Paper",
+    "Item"
 ]
 
 
