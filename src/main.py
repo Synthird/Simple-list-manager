@@ -27,13 +27,17 @@ print("What do you want to do with this list of values?")
 while True:
     print(listOfValues)
     printHeading("INDIVIDUAL VALUES")
-    print("1 = Add something to the list\n2 = Remove something from the list\n"
-    "3 = Find something in the list\n4 = Get the index of a value in the list")
+    print("1 = Add something to the list")
+    print("2 = Remove something from the list")
+    print("3 = Find something in the list")
+    print("4 = Get the index of a value in the list")
     printHeading("LIST ORDERING")
-    print("5 = Organize the list\n6 = Reverse the order")
+    print("5 = Organize the list")
+    print("6 = Reverse the order")
     printHeading("OTHER")
-    print("7 = Count how many values there are\n8 = Clear the entire list\nAny"
-    " other integer = Exit this program")
+    print("7 = Count how many values there are")
+    print("8 = Clear the entire list")
+    print("Any other integer = Exit this program")
 
     choice = int(input("I want to: "))
 
