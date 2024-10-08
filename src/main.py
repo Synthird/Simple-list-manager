@@ -1,8 +1,11 @@
-listOfValues = ["Hello world",
-                "yay",
-                "A",
-                "Something in a list"
-                ]
+listOfValues = [
+    "Hello world",
+    "yay",
+    "A",
+    "B",
+    "g",
+    ""
+    ]
 
 def findInList(value):
     if value in listOfValues:
@@ -16,11 +19,13 @@ print("What do you want to do with this list of values?")
 while True:
     print(listOfValues)
     print("--- INDIVIDUAL VALUES ---")
-    print("1 = Add something to the list\n2 = Remove something from the list\n3 = Find something in the list\n4 = Get the index of a value")
+    print("1 = Add something to the list\n2 = Remove something from the list\n3 = Find something in"
+        " the list\n4 = Get the index of a value")
     print("--- LIST ORDERING ---")
     print("5 = Organize the list\n6 = Reverse the order")
     print("--- OTHER ---")
-    print("7 = Count how many values there are\n8 = Clear the entire list")
+    print("7 = Count how many values there are\n8 = Clear the entire list\nAny other integer = Exit"
+        "this program")
     
     choice = int(input("I want to: "))
 
@@ -63,3 +68,5 @@ while True:
     elif choice == 8:
         listOfValues.clear()
         printResult("The entire list is cleared!")
+    else:
+        break
