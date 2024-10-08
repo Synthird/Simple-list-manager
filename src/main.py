@@ -4,7 +4,7 @@ listOfValues = [
     "A",
     "B",
     "g",
-    ""
+    "WOW!"
     ]
 
 def findInList(value):
