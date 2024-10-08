@@ -3,7 +3,7 @@ listOfValues = [
     "yay",
     "BAAAAA!!",
     "Comfy",
-    "Moooo....",
+    "MOOoooo....",
     "WOW!"
 ]
 
