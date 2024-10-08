@@ -18,17 +18,20 @@ def findInList(value):
 def printResult(printValue):
     print(f">>>> {printValue} <<<<")
 
+def printHeading(printValue):
+    print(f"--- {printValue} ---")
+
 
 print("What do you want to do with this list of values?")
 
 while True:
     print(listOfValues)
-    print("--- INDIVIDUAL VALUES ---")
+    printHeading("INDIVIDUAL VALUES")
     print("1 = Add something to the list\n2 = Remove something from the list\n"
     "3 = Find something in the list\n4 = Get the index of a value in the list")
-    print("--- LIST ORDERING ---")
+    printHeading("LIST ORDERING")
     print("5 = Organize the list\n6 = Reverse the order")
-    print("--- OTHER ---")
+    printHeading("OTHER")
     print("7 = Count how many values there are\n8 = Clear the entire list\nAny"
     " other integer = Exit this program")
 
@@ -47,7 +50,7 @@ while True:
             printResult(f"{removing} has been removed from the list!")
         else:
             printResult(f"Cannot remove {
-                        removing} since it it's not in the list...")
+                        removing} since it's not in the list...")
     elif choice == 3:
         finding = input("I want to find: ")
 
