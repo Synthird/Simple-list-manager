@@ -1,10 +1,9 @@
 listOfValues = [
     "Hello world",
     "yay",
-    "A",
-    "B",
-    "g",
+    "BAAAAA!!",
     "Comfy",
+    "Moooo....",
     "WOW!"
 ]
 
