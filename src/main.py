@@ -75,13 +75,13 @@ while True:
         printResult("The list is now organized!")
         listOfValues.sort()
     elif choice == 6:
-        printResult("The list is now reversed!")
+        printResult("The order of the list has been reversed!")
         listOfValues.reverse()
     elif choice == 7:
         printResult(f"There are a total of {
                     str(len(listOfValues))} values in the list")
     elif choice == 8:
         listOfValues.clear()
-        printResult("The entire list is cleared!")
+        printResult("The entire list is now cleared!")
     else:
         break
