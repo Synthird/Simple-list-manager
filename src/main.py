@@ -18,6 +18,7 @@ def findInList(value):
 def printResult(printValue):
     print(f">>>> {printValue} <<<<")
 
+
 def printHeading(printValue):
     print(f"--- {printValue} ---")
 
