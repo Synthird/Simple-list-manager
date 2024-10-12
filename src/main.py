@@ -70,7 +70,7 @@ while True:
             printResult(f"The index of {findValue} is {
                         str(listOfValues.index(findValue))}")
         else:
-            printResult(f"Cannot find the value of {
+            printResult(f"Cannot find the index of {
                         findValue} since it's not in the list")
     elif choice == 5:
         printResult("The list is now organized!")
